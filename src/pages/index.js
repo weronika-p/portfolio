@@ -1,11 +1,12 @@
-import React from "react"
-import Navbar from "../components/Navbar"
+import React from 'react'
+import Layout from '../components/Layout'
 
 export default function Home() {
   return (
-    <section>
-      <Navbar />
-      <div>Hello world!</div>
-    </section>
+    <Layout>
+      <section>
+        <div>Hello world!</div>
+      </section>
+    </Layout>
   )
 }
