@@ -6,6 +6,8 @@ stack: JavaScript(React & Redux) / CSS / HTML
 
 slug: ksiegarnia
 
+date: 2021-04-02T00:00:00+00:00
+
 ---
 
   
