@@ -12,6 +12,7 @@ export default function Home() {
           <h3>Welcome to my portfolio :)</h3>
           <Link className={styles.btn} to='/projects'>My portfolio projects</Link>
         </div>
+        <img src='/banner.png' alt='site-banner' style={{ maxWidth: '100%' }}></img>
       </section>
     </Layout>
   )
