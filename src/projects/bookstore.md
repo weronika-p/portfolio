@@ -1,6 +1,6 @@
 ---
 
-title: :books:Bookstore
+title: Bookstore
 
 stack: JavaScript(React & Redux) / CSS / HTML
 

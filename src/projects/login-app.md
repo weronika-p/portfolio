@@ -1,6 +1,6 @@
 ---
 
-title: :iphone:To Dos App
+title: To Dos App
 
 stack: JavaScript(React Native - Expo)
 
