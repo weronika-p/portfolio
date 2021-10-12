@@ -19,6 +19,7 @@ module.exports = {
   siteMetadata: {
     title: `Weronika P.'s portfolio`,
     description: 'Portfolio',
-    copyright: 'This website is copyright 2021 Weronika P.'
+    copyright: 'This website is copyright 2021 Weronika P.',
+    contact: 'weronika.pawlak1991@gmail.com'
   }
 }
