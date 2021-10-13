@@ -8,6 +8,10 @@ slug: ksiegarnia
 
 date: 2021-04-02T00:00:00+00:00
 
+thumb: ../images/thumbs/bookstore.png
+
+featuredImg: ../images/thumbs/bookstore.png
+
 ---
 
   

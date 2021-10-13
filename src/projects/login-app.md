@@ -8,6 +8,10 @@ slug: login-app
 
 date: 2021-10-06T00:00:00+00:00
 
+thumb: ../images/thumbs/login.png
+
+featuredImg: ../images/thumbs/login.png
+
 ---
 
   
