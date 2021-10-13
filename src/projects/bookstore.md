@@ -16,11 +16,11 @@ featuredImg: ../images/thumbs/bookstore.png
 
   
 
-# :books: Księgarnia - zadanie rekrutacyjne
+# Księgarnia - zadanie rekrutacyjne
 
   
 
-## :goal_net: Cel zadania
+## Cel zadania
 
 Zadanie rekrutacyjne polega na napisaniu programu, który ma przedstawiać proces zakupowy książek (pobieranie danych o książkach z API, dodawanie i usuwanie produktów z koszyka, wypełnienie formularza danymi osobowymi potrzebnymi do realizacji zamówienia).
 
@@ -74,7 +74,7 @@ Funkcjonalności dodatkowe:
 
   
 
-##  :man_technologist: Spis **wymaganych** technologii przy pracy z zadaniem
+##  Spis **wymaganych** technologii przy pracy z zadaniem
 
 * react,
 
@@ -82,13 +82,13 @@ Funkcjonalności dodatkowe:
 
   
 
-## :page_facing_up: Dokumentacja API
+## Dokumentacja API
 
 Dokumentacja w formacie OpenAPI 3 dostępna jest po uruchomieniu mock serwera i przejściu na adres: [localhost:3001/docs](http://localhost:3001/docs).
 
   
 
-## :arrow_forward: Uruchamianie środowiska deweloperskiego
+## Uruchamianie środowiska deweloperskiego
 
 Wymagane jest posiadanie Node.js (zaleca się dodatkowo Yarn). Projekt wymaga instalacji i uruchomienia API mock serwera:
 

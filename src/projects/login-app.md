@@ -16,17 +16,17 @@ featuredImg: ../images/thumbs/login.png
 
   
 
-# :iphone:To Dos App - my own project
+# To Dos App - my own project
 
   
 
-## :dart: Goal
+## Goal
 
 Create a mobile app where the user can create a list of tasks which is syncronized with mobile calendar.
 
   
 
-## :clipboard: Options
+## Options
 
 A user is able to:
 
@@ -49,6 +49,6 @@ When a user delete a task the sound of basket swish is played.
 
   
 
-##  :man_technologist: Stack
+## Stack
 
 React Native (Expo)
