@@ -9,7 +9,7 @@ export default function Home() {
     <Layout>
       <section className={styles.header}>
         <div>
-          <h2>Hi!</h2>
+          <h2>Hi - I'm Weronika!</h2>
           <h3>Welcome to my portfolio :)</h3>
           <Link className={styles.btn} to="/projects">
             My portfolio projects
