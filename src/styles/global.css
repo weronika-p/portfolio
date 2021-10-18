@@ -14,6 +14,9 @@ body {
   background: #fffffe;
   background-repeat: no-repeat;
 }
+#___gatsby, #gatsby-focus-wrapper {
+  height: 100vh;
+}
 p {
   margin: 16px auto;
   line-height: 1.5em;
@@ -22,11 +25,15 @@ p {
 .layout {
   max-width: 1200px;
   margin: 0 auto;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 nav {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin: 40px auto;
+  padding: 40px 0;
 }
 nav .links {
   display: inline-block;
@@ -42,8 +49,70 @@ nav a {
 nav a:hover {
   border-color: #00ebc7;
 }
+
+footer {
+  display: flex;
+  flex-direction: column;
+}
+
 footer p{
   text-align: center;
   color: #bbb;
   margin: 40px auto;
+  z-index: 1;
+}
+
+button {
+  min-width: 130px;
+  height: 40px;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  overflow: hidden;
+  border-radius: 10px;
+  border: none;
+  background-color: #00ebc7;
+}
+button:hover {
+  border-radius: 10px;
+  padding-right: 24px;
+  padding-left:8px;
+}
+button:hover:after {
+  opacity: 1;
+  right: 10px;
+}
+button:after {
+  content: "\00BB";
+  position: absolute;
+  opacity: 0;
+  font-size: 20px;
+  line-height: 40px;
+  top: 0;
+  right: -20px;
+  transition: 0.4s;
+}
+
+.custom-shape-divider-bottom-1634541840 {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1634541840 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 100px;
+}
+
+.custom-shape-divider-bottom-1634541840 .shape-fill {
+  fill: #00EBC7;
 }

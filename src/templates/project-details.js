@@ -6,7 +6,9 @@ import { graphql } from 'gatsby'
 
 export default function ProjectDetails({ data }) {
     const { html } = data.markdownRemark
-    const { title, stack, featuredImg } = data.markdownRemark.frontmatter
+    const { title, stack, featuredImg, slug } = data.markdownRemark.frontmatter
+    const github = `https://github.com/weronika-p/${slug}`
+
     return (
         <Layout>
             <div className={styles.details}>
@@ -16,6 +18,9 @@ export default function ProjectDetails({ data }) {
                     <GatsbyImage image={getImage(featuredImg)} alt={title}/>
                 </div>
                 <div className={styles.html} dangerouslySetInnerHTML={{__html: html}} />
+                <button>
+                    <a href={github}>Click here to check the project on github</a>
+                </button>
             </div>
         </Layout>
     )
@@ -28,6 +33,7 @@ export const query = graphql`
             frontmatter {
                 stack
                 title
+                slug
                 featuredImg {
                     childImageSharp {
                         gatsbyImageData

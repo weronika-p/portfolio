@@ -9,6 +9,9 @@ margin-top: 80px;
 font-size: 2em;
 font-weight: 400;
 }
+.portfolio > p {
+    z-index: 1;
+}
 .projects {
 display: grid;
 grid-template-columns: 1fr 1fr 1fr;
