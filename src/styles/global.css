@@ -57,7 +57,7 @@ footer {
 
 footer p{
   text-align: center;
-  color: #bbb;
+  color: #1b2d45;
   margin: 40px auto;
   z-index: 1;
 }
@@ -116,3 +116,5 @@ button:after {
 .custom-shape-divider-bottom-1634541840 .shape-fill {
   fill: #00EBC7;
 }
+
+
