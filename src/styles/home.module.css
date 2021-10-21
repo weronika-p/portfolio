@@ -1,3 +1,5 @@
+@import './global.css';
+
 .header {
 display: grid;
 grid-template-columns: 2fr 1fr;
@@ -14,9 +16,14 @@ margin-bottom: 20px;
 }
 .btn {
 display: inline-block;
-background: #00ebc7;
+background: var(--accent);
 padding: 10px 16px;
 border-radius: 10px;
 margin-top: 20px;
 font-weight: 500;
+}
+@media(prefers-color-scheme: dark) {
+    .btn {
+      color: #1b2d45;
+    }
 }

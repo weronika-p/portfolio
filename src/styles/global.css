@@ -1,17 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
 
 * {
+  --primary: #1b2d45;
+  --dark-primary: #fffffe;
+  --background: #fffffe;
+  --dark-background: #121212;
+  --accent: #00ebc7;
+  --tertiary: #d7fff9;
   margin: 0;
   padding: 0;
   text-decoration: none;
   font-family: "Montserrat";
-  color: #1b2d45;
+  color: var(--primary);
 }
+
+@media(prefers-color-scheme: dark) {
+  * {
+    --primary: var(--dark-primary);
+    --background: var(--dark-background);
+  }
+}
+
 html, body {
   min-height: 100%;
 }
 body {
-  background: #fffffe;
+  background: var(--background);
   background-repeat: no-repeat;
 }
 #___gatsby, #gatsby-focus-wrapper {
@@ -47,7 +61,7 @@ nav a {
   border-bottom: 3px solid transparent;
 }
 nav a:hover {
-  border-color: #00ebc7;
+  border-color: var(--accent);
 }
 
 footer {
@@ -57,7 +71,7 @@ footer {
 
 footer p{
   text-align: center;
-  color: #1b2d45;
+  color: var(--primary);
   margin: 40px auto;
   z-index: 1;
 }
@@ -75,7 +89,7 @@ button {
   overflow: hidden;
   border-radius: 10px;
   border: none;
-  background-color: #00ebc7;
+  background-color: var(--accent);
 }
 button:hover {
   border-radius: 10px;
@@ -114,7 +128,7 @@ button:after {
 }
 
 .custom-shape-divider-bottom-1634541840 .shape-fill {
-  fill: #00EBC7;
+  fill: var(--accent);
 }
 
 

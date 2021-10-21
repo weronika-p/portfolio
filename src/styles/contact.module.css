@@ -1,5 +1,7 @@
+@import './global.css';
+
 .content {
-    background-color: #d7fff9;
+    background-color: var(--tertiary);
     border-radius: 0.5rem;
     padding: 0.75rem 1rem 0.25rem;
     margin: 1rem
@@ -7,7 +9,7 @@
 
 .content input, .content textarea {
     width: 100%;
-    background-color: #d7fff9;
+    background-color: var(--tertiary);
     border: none;
     outline: none;
     padding: 0.25rem 0.5rem 0.5rem 0;
@@ -15,4 +17,13 @@
 
 .contactButton {
     margin-left: 1rem;
+}
+
+@media(prefers-color-scheme: dark) {
+    .contactButton {
+      color: #1b2d45;
+    }
+    .content label {
+        color: #1b2d45;
+    }
 }
